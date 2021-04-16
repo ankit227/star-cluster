@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25664" started-at="2020-08-27T06:11:52Z" finished-at="2020-08-27T06:12:17Z">
+  <suite name="Default suite" duration-ms="151" started-at="2021-04-16T08:39:01Z" finished-at="2021-04-16T08:39:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25664" started-at="2020-08-27T06:11:52Z" finished-at="2020-08-27T06:12:17Z">
-      <class name="all.selemium.commands.NavigateTo">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:all.selemium.commands.NavigateTo@5dd6264]" name="setupTest" is-config="true" duration-ms="10624" started-at="2020-08-27T11:41:52Z" finished-at="2020-08-27T11:42:02Z">
+    <test name="Default test" duration-ms="151" started-at="2021-04-16T08:39:01Z" finished-at="2021-04-16T08:39:02Z">
+      <class name="all.selemium.commands.Test1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:all.selemium.commands.Test1@780cb77]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2021-04-16T14:09:02Z" finished-at="2021-04-16T14:09:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="navigateTo()[pri:0, instance:all.selemium.commands.NavigateTo@5dd6264]" name="navigateTo" duration-ms="9731" started-at="2020-08-27T11:42:02Z" finished-at="2020-08-27T11:42:12Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:all.selemium.commands.Test1@780cb77]" name="test1" duration-ms="15" started-at="2021-04-16T14:09:02Z" finished-at="2021-04-16T14:09:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateTo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:all.selemium.commands.NavigateTo@5dd6264]" name="tearDown" is-config="true" duration-ms="5272" started-at="2020-08-27T11:42:12Z" finished-at="2020-08-27T11:42:17Z">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:all.selemium.commands.Test1@780cb77]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-16T14:09:02Z" finished-at="2021-04-16T14:09:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- all.selemium.commands.NavigateTo -->
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:all.selemium.commands.Test1@780cb77]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-16T14:09:02Z" finished-at="2021-04-16T14:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:all.selemium.commands.Test1@780cb77]" name="test2" duration-ms="4" started-at="2021-04-16T14:09:02Z" finished-at="2021-04-16T14:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:all.selemium.commands.Test1@780cb77]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-16T14:09:02Z" finished-at="2021-04-16T14:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- all.selemium.commands.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
