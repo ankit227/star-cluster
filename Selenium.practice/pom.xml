@@ -137,7 +137,7 @@
 		<version>2.19.1</version>  
 		<configuration>  
 		<suiteXmlFiles>  
-		<suiteXmlFile>C:\Users\Ankit\git\star-cluster\Selenium.practice\testng.xml</suiteXmlFile>  
+		<suiteXmlFile>C:\Users\Ankit\git\star-cluster\Selenium.practice\testng1.xml</suiteXmlFile>  
 		</suiteXmlFiles>  
 		</configuration>  
 	</plugin>  
